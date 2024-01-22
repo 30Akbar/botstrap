@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Bootstrap</title>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <style>
+        .row {
+            margin-top: 1em;
+        }
+         [class^='col']{ 
+            background-color: pink;
+            border: 1px solid red;
+            padding: 0.4em;
+            
+        }
+    </style>
+</head>
+<body>
+    <!--Awal konten-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 order-lg-8">kolom 1</div>
+            <div class="col-12 col-md-6 col-md-10 order-lg-2">kolom 2</div>
+            <div class="col-12 col-md-6 col-md-2 order-lg-2">kolom 3</div>
+        </div>
+    </div>
+    <!--Akhir konten-->
+    <script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>
